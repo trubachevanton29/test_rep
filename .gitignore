@@ -1,0 +1,65 @@
+# =========================== 
+# STM32CubeIDE (общие файлы) 
+# =========================== 
+.mxproject 
+*.launch 
+*.db 
+*.svg 
+*.html 
+*.log 
+*.tmp 
+*.swp 
+*.swo 
+*.suo 
+*.user 
+*.orig 
+# Папки сборки (объектные, исполняемые) 
+Debug/ 
+Release/ 
+build/ 
+Binaries/ 
+Output/ 
+# Временные файлы отладки 
+*.elf 
+*.hex 
+*.bin 
+*.map 
+*.lst 
+*.o 
+*.d 
+*.crf 
+*.htm 
+*.dep 
+# Настройки IDE (Eclipse) 
+.settings/ 
+.project 
+.cproject 
+.classpath 
+.factorypath 
+.idea/ 
+*.iml 
+# Драйверы HAL/LL (обычно генерируются и не редактируются) 
+# Можно исключить, чтобы не раздувать репозиторий 
+Drivers/ 
+# =========================== 
+# Специфично для двухъядерного проекта CM7 и CM4 
+# =========================== 
+# Папки сборки для каждого ядра 
+CM7/Debug/ 
+CM7/Release/ 
+CM4/Debug/ 
+CM4/Release/ 
+# Временные файлы отладки внутри подпроектов 
+CM7/*.elf 
+CM7/*.hex 
+CM7/*.bin 
+CM7/*.map 
+CM7/*.lst 
+CM4/*.elf 
+CM4/*.hex 
+CM4/*.bin 
+CM4/*.map 
+CM4/*.lst 
+# Кэш индекса 
+CM7/.clangd/ 
+CM4/.clangd/
